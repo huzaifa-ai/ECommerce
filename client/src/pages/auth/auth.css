@@ -1,0 +1,28 @@
+.login-row {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 110px 0 150px 0;
+  background: white;
+}
+
+.form-group > input {
+  border: none;
+  background: rgb(233, 232, 232);
+}
+
+.form-group > input::placeholder {
+  color: rgb(114, 114, 114);
+}
+
+.login-container {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
